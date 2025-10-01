@@ -1,4 +1,4 @@
-## for macos
+## For MAC OS
 1. Rename it to pytime (no .py extension)
     ```bash   
     mv pytime.py pytime 
@@ -11,10 +11,15 @@
         ```
    - Then, add this to your shell profile (```~/.zshrc``` or ```~/.bash_profile```):
         ```bash
-            export PATH="$HOME/bin:$PATH"
+        export PATH="$HOME/bin:$PATH"
         ```
     Then reload:
     ```bash
     source ~/.zshrc    # or ~/.bash_profile
     ```
-### Usage
+### Usage: 
+Anywhere on your system:
+
+```python
+pytime <filename.py>
+```
